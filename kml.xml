@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Letter P</name>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -102.8,50.0,0  <!-- Top-left -->
+            -102.8,49.5,0  <!-- Bottom-left -->
+            -102.7,49.5,0  <!-- Bottom-middle -->
+            -102.7,49.75,0 <!-- Middle -->
+            -102.6,49.8,0  <!-- Curve start -->
+            -102.5,49.85,0  
+            -102.4,49.85,0  <!-- Top-right -->
+            -102.3,49.8,0 
+            -102.25,49.7,0  
+            -102.3,49.6,0  <!-- Right side -->
+            -102.4,49.55,0 
+            -102.5,49.55,0  <!-- Bottom curve -->
+            -102.6,49.6,0 
+            -102.6,49.75,0 <!-- Connect to top curve -->
+            -102.7,49.75,0 
+            -102.7,50.0,0  <!-- Connect back to top-left -->
+            -102.8,50.0,0  <!-- Close shape -->
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</kml>
